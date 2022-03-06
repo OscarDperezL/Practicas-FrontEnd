@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">6 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/stylos.css">
+    <title>The Sweet Galaxy</title>
+</head>
+<body>
+
+    <!--Header-->
+
+    <header>  <!--Color #00b8ff-->
+        <nav>
+            <img src="assets/images/logo.png" alt="Logo pasteleria" class="logo">
+            <h1></h1>
+        </nav><!--./nav-->
+    </header><!--./header-->
+ 
+    <main>
+        <div class="pedido">
+            <h1 class="heading">Ingresa tus datos para realizar la cotización</h1>
+            <div class="container">
+                <form action="index.html">                
+                    <input type="text" id="nombre" name="Nombre Completo" placeholder="Nombre Completo">
+                    <input type="tel" id="telefono" name="Telefono celular" placeholder="Telefono celular">
+                    <input type="email" id="email" name="Correo Electronico" placeholder="Correo Electronico">
+                    <input type="direccion" id="Dirección" placeholder="Dirección">
+                    <textarea name="descripción" id="descripcion" cols="30" rows="10">Descripción general del pastel</textarea>
+                    <h2 class="subtitle">Pasteles</h2>
+                    <div class="Pastel">
+                        <input type="checkbox" name="Tradicional" id="Tradicional"><label for="Tradicional">Tradicional</label>
+                        <input type="checkbox" name="Chocolate" id="Chocolate"><label for="Chocolate">Chocolate</label>
+                        <input type="checkbox" name="Aleman" id="Aleman}"><label for="Aleman">Aleman</label>
+                        <input type="checkbox" name="Helado" id="Helado"><label for="Helado">Helado</label>
+                        <input type="checkbox" name="Cookies&Cream" id="Cookies&Cream"><label for="Cookies&Cream">Cookies&Cream</label>
+                        <input type="checkbox" name="cafe" id="cafe"><label for="cafe">Café</label>
+                    </div>
+                    
+                    <h2 class="subtitle">Extras</h2> 
+                    <div class="Extra">
+                        <input type="checkbox" name="Chantilly" id="Chantilly"><label for="Chantilly">Chantilly</label>
+                        <input type="checkbox" name="Chsipas" id="Chispas"><label for="Chispas">Chispas</label>
+                        <input type="checkbox" name="Jarabe" id="Jarabe"><label for="Jarabe">Jarabe</label>
+                        <input type="checkbox" name="Nueces" id="Nueces"><label for="Nueces">Nueces</label>
+                    
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar tu pedido</button>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <h3>&reg; The Sweet Galaxy</h3>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-square"></i></a>            
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>        
+    </footer>
+    
+</body>
+</html>
